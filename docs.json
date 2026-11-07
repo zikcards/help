@@ -1,0 +1,35 @@
+{
+  "$schema": "https://docs.page/schema.json",
+  "name": "ZikCards Help",
+  "description": "Practical help for paying online with a virtual Visa or Mastercard: billing addresses, verification codes, declines, USDT networks and refunds.",
+  "logo": {
+    "light": "https://zikcards.com/frontend/images/icons/icon-512.png",
+    "dark": "https://zikcards.com/frontend/images/icons/icon-512.png"
+  },
+  "favicon": "https://zikcards.com/frontend/images/icons/icon-512.png",
+  "theme": {
+    "primary": "#16a34a"
+  },
+  "social": {
+    "x": "ZikCards",
+    "github": "zikcards/help"
+  },
+  "sidebar": [
+    {
+      "group": "Paying with a virtual card",
+      "pages": [
+        { "title": "Start here", "href": "/" },
+        { "title": "Which billing address to use", "href": "/billing-address" },
+        { "title": "Verification codes at checkout", "href": "/verification-codes" },
+        { "title": "When a payment is declined", "href": "/declined-payments" }
+      ]
+    },
+    {
+      "group": "Money in and out",
+      "pages": [
+        { "title": "Sending USDT or USDC on the right network", "href": "/usdt-networks" },
+        { "title": "Refunds and closing a card", "href": "/refunds-and-closing" }
+      ]
+    }
+  ]
+}
